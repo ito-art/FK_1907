@@ -1,0 +1,19 @@
+<html>
+<head>
+</head>
+<body>
+  <input type="text" id="fname" value="ファイル名"/>
+  <input type="button" value="保存" id="save"/>
+  <a id="link"></a>
+  <script type="text/javascript">
+    //対象を保存する.
+    save.onclick = e => {
+      link.download = fname.value + ".png";
+      //link.href = "./file/ver2.png"
+      link.href = "data:text/plain,aa";
+      link.click();
+    };
+
+  </script>
+
+</body>
