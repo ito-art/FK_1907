@@ -1,5 +1,5 @@
 body{
-  text-align: center;
+  position:relative;
 }
 
 .Heading{
@@ -26,15 +26,19 @@ body{
 }
 
 .aboutTopic{
+  font-family: 'Pacifico', cursive;
+  /*
   top: 0px;
   left: 764px;
   width: 393px;
   height: 263px;
+*/
   text-align: center;
   font: Regular 150px/263px Pacifico;
   letter-spacing: 0;
   color: #271616;
   opacity: 1;
+
 }
 
 .aboutColums{
@@ -62,19 +66,24 @@ body{
 }
 
 .aboutBack{
+  /*
   top: 0px;
   left: 0px;
   width: 1920px;
   height: 1080px;
+  */
+  background-size:cover;
   background: transparent url('img/about.png') 0% 0% no-repeat padding-box;
   opacity: 1;
 }
 
 .homeTopic{
-  top: 188px;
+  font-family: 'Pacifico', cursive;
+  /*top: 188px;
   left: 352px;
   width: 1217px;
   height: 352px;
+  */
   text-align: center;
   font: Regular 200px/352px Pacifico;
   letter-spacing: 0;
@@ -93,8 +102,9 @@ body{
 }
 
 .homeToCam{
-  top: 669px;
-  left: 1214px;
+  position:absolute;
+  top: 469px;
+  left: 1014px;
   width: 236px;
   height: 236px;
   background: transparent url('img/cam.png') 0% 0% no-repeat padding-box;
@@ -103,11 +113,8 @@ body{
 }
 
 .homeBack{
-  top: 0px;
-  left: 0px;
-  width: 1920px;
-  height: 1080px;
   background: transparent url('img/home.png') 0% 0% no-repeat padding-box;
+  background-size: cover;
   opacity: 1;
 }
 
@@ -117,5 +124,6 @@ body{
   width: 1920px;
   height: 1081px;
   background: transparent url('img/camera.png') 0% 0% no-repeat padding-box;
+  background-size: cover;
   opacity: 1;
 }
